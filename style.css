@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("https://cdn.discordapp.com/attachments/962665287491133460/1022819440586395838/20220715144117_1.jpg");
+    height: 550%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.topbutton ul{
+    float: right;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.topbutton ul li{
+    display: inline-block;
+}
+
+.topbutton ul li a{
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    transition: 0.2s ease;
+}
+
+.topbutton ul li a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+
+.bottombutton{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    color: white;
+    background-color: rgba(224, 0, 67, 0.815);
+    margin: 25px;
+    padding: 10px 25px;
+    text-decoration: solid;
+    transition: .1s ease;
+    border-radius: 3px;
+}
+.btn1{
+    color: white;
+    background-color: rgba(224, 0, 67, 0.815);
+    margin: 25px;
+    padding: 10px 45px;
+    text-decoration: solid;
+    transition: .2s ease;
+    border-radius: 3px;
+}
+
+.bottombutton :hover{
+    background-color: #fff;
+    color: rgba(224, 0, 67, 0.815);
+}
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    position: absolute;
+    color: rgb(255, 0, 85);
+    font-size: 50px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-100%);
+}
+
+.title h2{
+    color: #fff;
+    font-size: large;
+}
+
+
+.packagetitle{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.gangpackage{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.otherpackage{
+    position: absolute;
+    top: 330%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.team{
+    position: absolute;
+    top: 460%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-size:50px;
+}
+
+/* packages */
+
+.silver{
+    position: absolute;
+    top: 400%;
+    left: -55%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.silver:hover{
+    width: 70%;
+}
+.gold{
+    position: absolute;
+    top: 400%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.gold:hover{
+    width: 70%;
+}
+
+.platinum{
+    position: absolute;
+    top: 400%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.platinum:hover{
+    width: 70%;
+}
+
+.diamond{
+    position: absolute;
+    top: 400%;
+    left: 155%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.diamond:hover{
+    width: 70%;
+}
+
+
+/* gang packages */
+
+
+
+.starter{
+    position: absolute;
+    top: 600%;
+    left: -30%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.starter:hover{
+    width: 70%;
+}
+.elite{
+    position: absolute;
+    top: 600%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.elite:hover{
+    width: 70%;
+}
+
+.luxury{
+    position: absolute;
+    top: 600%;
+    left: 130%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.luxury:hover{
+    width: 70%;
+}
+
+
+/* other packages */
+
+
+
+.pedmenu{
+    position: absolute;
+    top: 600%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.pedmenu:hover{
+    width: 70%;
+}
+.customplate{
+    position: absolute;
+    top: 600%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.customplate:hover{
+    width: 70%;
+}
+
+/* TEAM */
+
+
+.ahmedcheema{
+    position: absolute;
+    top: 300%;
+    left: -55%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.ahmedcheema:hover{
+    width: 70%;
+}
+.jgusman{
+    position: absolute;
+    top: 300%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.jgusman:hover{
+    width: 70%;
+}
+
+.sherkhan{
+    position: absolute;
+    top: 300%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.sherkhan:hover{
+    width: 70%;
+}
+
+.kingtopi{
+    position: absolute;
+    top: 300%;
+    left: 155%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 5px;
+    transition: .2s ease;
+}
+.kingtopi:hover{
+    width: 70%;
+}
+
+
